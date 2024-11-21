@@ -6,10 +6,10 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: rgba(132, 243, 217, 0.477);
 }
 
-/* .line-top {
+ /* .line-top {
     background-color: #000000;
     height: 10px
 }
@@ -35,7 +35,7 @@ nav {
         backdrop-filter: blur(7px);
     }
 
-} */
+}  */
 
 .slide {
   position: relative;
@@ -87,7 +87,7 @@ nav {
   padding: 20px;
   border: 2px solid #ddd;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: #ffffffb8;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
 }
 
@@ -141,9 +141,8 @@ nav {
 
 .news-item h1 {
   font-size: 1.2em;
-  text-decoration: none;
   margin: 10px 0 0;
-  color: #333;
+  color: #000000;
 }
 
 .news-item:hover {
@@ -192,7 +191,7 @@ nav {
   padding: 50px;
   border: 2px solid #ddd;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: #ffffffb8;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
 }
 
@@ -224,7 +223,7 @@ nav {
 }
 
 .news-file {
-  background-color: white;
+  background-color: #ffffffb8;
   padding: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -240,7 +239,8 @@ nav {
 }
 
 .news-file .download {
-  display: inline-block;
+  display: flex;
+  justify-content: end;
   margin-top: 10px;
   font-size: 14px;
   color: #2980b9;
@@ -251,19 +251,21 @@ nav {
   text-decoration: underline;
 }
 
+
 .border-contact {
   width: 100%;
   height: 300px;
   margin: 30px auto;
   display: flex;
   justify-content: center;
+  
 }
 
 .all-contact {
   padding: 3%;
   width: 95%;
   height: 95%;
-  background: rgb(255, 255, 255);
+  background-color: #ffffffb8;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.77);
   border-radius: 50px;
   display: flex;
@@ -364,11 +366,11 @@ nav {
 
 .card-wrap {
     width: 95%;
-    height: 100%;
-    padding: 1rem 2rem;
+    height: auto;
+    padding: 2rem 2rem;
     margin: 20px auto;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: #ffffffb8;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
     display: flex;
     flex-direction: column;
@@ -376,178 +378,166 @@ nav {
     justify-content: flex-start; 
     text-align: center; 
   }
-  
-  h1 {
-    margin-top: 25px;
-    margin-bottom: 20px;
-    width: 100%;
-    font-size: 24px;
-  }
+/* จัดการ Container หลัก */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 50px;
+  font-family: Arial, sans-serif;
+  border: solid;
+  width: 100%;
+  border-radius: 20px;
+}
 
-  .card-box {
-    width: 100%;
-    height: auto;
-    margin-top: 15px;
-    background-color: #fff;
-    display: flex;
-    align-items: center; /* จัดแนวกลางในแนวนอน */
-    justify-content: space-evenly; /* จัดให้อยู่ด้านบน */
-    text-align: center; /* ให้ข้อความอยู่กลาง */
-  }
-  
-  .card {
-    width: 250px;
-    height: 350px;
-    border: 2px solid #ddd;
-    border-radius: 20px;
-    background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
-    
-  }
-  
-  .card img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    object-fit: cover;
-  }
+/* สไตล์ของ Card Header */
+.card-container > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 90px;
+  border: 2px solid #007bff;
+  border-radius: 20px;
+  background-color: #f0f8ff;
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
-  .card h2 {
-    margin-top: 10px;
-  }
+/* จัดการ Card List */
+.card-list {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* สไตล์ของ Card Item */
+.card-item {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 200px; /* ควบคุมความกว้าง */
+  height: auto; /* ให้ความสูงปรับตามสัดส่วน */
+  max-height: 250px; /* กำหนดความสูงสูงสุด */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.card-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* สไตล์ของรูปภาพใน Card */
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* สไตล์ของชื่อ */
+.card-title {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.dropdown-border{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  height: auto;
+}
   
-/* ปุ่มสำหรับเลือกอำเภอ */
-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
+#dropdownContainer {
+  position: relative;
+  display: none;
+  background-color: #ffffffb8;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#zoneDropdownContainer {
+  position: relative;
+  display: none;
+  background-color: #ffffffb8;
+  border: 1px solid #ddd;
+  width: 240px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the dropdown */
+select {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #ffffff;
+  font-size: 14px;
+  
+}
+
+#selectedDistrict {
   font-size: 16px;
-  background-color: #007BFF;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #007bff;
   color: white;
   border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
   cursor: pointer;
-  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
   background-color: #0056b3;
 }
 
-/* กรอบเลือกอำเภอ */
-#dropdownContainer {
-  text-align: center;
-  margin-top: 20px;
-}
-
-select {
-  padding: 10px;
-  font-size: 16px;
-  width: 200px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  background-color: #fff;
-  cursor: pointer;
-}
-
-select:focus {
-  border-color: #007BFF;
-  outline: none;
-}
-
-/* กำหนดรูปแบบการแสดงผลของรูปภาพ */
-#districtImage {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-figure {
-  margin: 15px;
-  text-align: center;
-  width: 220px;
-}
-
-figure img {
-  width: 200px; /* กำหนดความกว้างที่แน่นอน */
-  height: 250px; /* กำหนดความสูงที่แน่นอน */
-  object-fit: cover; /* ปรับขนาดรูปให้เต็มกรอบโดยไม่เสียอัตราส่วน */
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-figure img:hover {
-  transform: scale(1.05);
-}
-
-/* สไตล์สำหรับคำอธิบายใต้ภาพ */
-figcaption {
-  font-size: 14px;
-  color: #555;
-  margin-top: 10px;
-}
-
-figcaption strong {
-  font-weight: bold;
-  color: #333;
-}
-
-/* สไตล์สำหรับข้อความที่แสดงเมื่อไม่มีรูปภาพ */
-#districtImage p {
-  text-align: center;
-  font-size: 18px;
-  color: #888;
-}
-.person-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: inline-block;
-  width: 200px;
-  text-align: center;
-  background-color: #f9f9f9;
-}
-
-.person-card h3 {
-  margin-top: 0;
-  font-size: 18px;
-  color: #333;
-}
-
-.person-card p {
-  color: #555;
-}
-
-#person-display {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.person-box {
-  background-color: #f0f0f0;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  width: 30vh;
-  height: 30vh;
-  text-align: center;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-}
-
-.person-box:hover {
-  transform: translateY(-5px);
-}
-
-.person-image {
+#districtImage img {
   width: 100%;
-  height: 20vh;
-  object-fit: cover; /* ทำให้ภาพย่อขนาดในกรอบโดยไม่เบี้ยว */
-  margin-bottom: 10px;
+  max-width: 200px; /* ควบคุมความกว้าง */
+  height: auto; /* ให้ความสูงปรับตามสัดส่วน */
+  max-height: 250px; /* กำหนดความสูงสูงสุด */
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+#districtImage img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  border: 2px solid #007bff; /* เพิ่มเอฟเฟกต์ border เมื่อ hover */
+}
+
+/* คำอธิบายภาพ */
+#districtImage figcaption {
+  font-size: 18px;
+  color: #333;
+  margin-top: 8px;
+  font-weight: 600;
+  text-align: center;
+}
