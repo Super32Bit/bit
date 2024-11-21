@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <title>E-election</title>
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+  <div>
+    <!-- <div class="line-top"></div> 
+        <nav>
+            <div class="b-logo">
+                <div class="logo"><a href="index.html"> <img src="\assets\img\logo.png" alt=""></a></div>
+            </div>
+        </nav>  -->
+    <div class="slide">
+      <img src="image\slide1.jpg" alt="" />
+      <img src="image\slide2.jpg" alt="" />
+      <img src="image\slide3.jpg" alt="" />
+      <img src="image\slide4.jpg" alt="" />
+      <img src="image\banner-khit.jpg" alt="" />
+      <div class="controls" id="announcement-section">
+        <button class="prev" onclick="changeSlide(-1)">❮</button>
+        <button class="next" onclick="changeSlide(1) ">❯</button>
+      </div>
+    </div>
+
+    <div class="card-wrap">
+      <h1>ผู้ลงสมัครนายก</h1>
+      <div class="card-box">
+        <div class="card">
+          <img src="image/eden.jpg" alt="" />
+          <h2>นาย เอเดน อาซาร์</h2>
+        </div>
+        <div class="card">
+          <img src="image/enzo.jpg" alt="" />
+          <h2>นาย เอนโซ่ เฟนานเดซ</h2>
+        </div>
+        <div class="card">
+          <img src="image/felix.jpg" alt="" />
+          <h2>นาย เชา เฟริก</h2>
+        </div>
+        <div class="card">
+          <img src="image/palmer.jpg" alt="" />
+          <h2>นาย โคล พาล์มเมอร์</h2>
+        </div>
+      </div>
+      <hr style="width: 100%; margin-top: 70px" />
+      <h1>รายชื่อผู้ลงสมัครเลือกตั้งแต่ละอำเภอ</h1>
+      <button onclick="showDropdown()">เลือกอำเภอ</button>
+      <div id="dropdownContainer" style="display: none; margin-top: 20px">
+        <label for="amphoe">เลือกอำเภอ:</label>
+        <select id="amphoe" onchange="updateDistricts()">
+          <option value="">เลือกอำเภอ</option>
+          <option value="อำเภอเมืองนครราชสีมา">อำเภอเมืองนครราชสีมา</option>
+          <option value="อำเภอครบุรี">อำเภอครบุรี</option>
+          <option value="อำเภอเสิงสาง">อำเภอเสิงสาง</option>
+          <option value="อำเภอคง">อำเภอคง</option>
+          <option value="อำเภอบ้านเหลื่อม">อำเภอบ้านเหลื่อม</option>
+          <option value="อำเภอจักราช">อำเภอจักราช</option>
+          <option value="อำเภอโชคชัย">อำเภอโชคชัย</option>
+          <option value="อำเภอด่านขุนทด">อำเภอด่านขุนทด</option>
+          <option value="อำเภอโนนไทย">อำเภอโนนไทย</option>
+          <option value="อำเภอโนนสูง">อำเภอโนนสูง</option>
+          <option value="อำเภอขามสะแกแสง">อำเภอขามสะแกแสง</option>
+          <option value="อำเภอบัวใหญ่">อำเภอบัวใหญ่</option>
+          <option value="อำเภอประทาย">อำเภอประทาย</option>
+          <option value="อำเภอปักธงชัย">อำเภอปักธงชัย</option>
+          <option value="อำเภอพิมาย">อำเภอพิมาย</option>
+          <option value="อำเภอห้วยแถลง">อำเภอห้วยแถลง</option>
+          <option value="อำเภอชุมพวง">อำเภอชุมพวง</option>
+          <option value="อำเภอสูงเนิน">อำเภอสูงเนิน</option>
+          <option value="อำเภอขามทะเลสอ">อำเภอขามทะเลสอ</option>
+          <option value="อำเภอสีคิ้ว">อำเภอสีคิ้ว</option>
+          <option value="อำเภอปากช่อง">อำเภอปากช่อง</option>
+          <option value="อำเภอหนองบุญมาก">อำเภอหนองบุญมาก</option>
+          <option value="อำเภอแก้งสนามนาง">อำเภอแก้งสนามนาง</option>
+          <option value="อำเภอโนนแดง">อำเภอโนนแดง</option>
+          <option value="อำเภอวังน้ำเขียว">อำเภอวังน้ำเขียว</option>
+          <option value="อำเภอเทพารักษ์">อำเภอเทพารักษ์</option>
+          <option value="อำเภอเมืองยาง">อำเภอเมืองยาง</option>
+          <option value="อำเภอพระทองคำ">อำเภอพระทองคำ</option>
+          <option value="อำเภอลำทะเมนชัย">อำเภอลำทะเมนชัย</option>
+          <option value="อำเภอบัวลาย">อำเภอบัวลาย</option>
+          <option value="อำเภอสีดา">อำเภอสีดา</option>
+          <option value="อำเภอเฉลิมพระเกียรติ">อำเภอเฉลิมพระเกียรติ</option>
+        </select>
+
+        <br><br>
+
+        <label for="district">เลือกเขต:</label>
+        <select id="district" onchange="updatePersons()">
+          <option value="">เลือกเขต</option>
+        </select>
+
+        <br><br>
+
+        <div id="person-display">
+          <!-- รายชื่อบุคคลจะแสดงที่นี่ -->
+        </div>
+      </div>
+      <div id="selectedDistrict" style="margin-top: 20px; font-size: 18px"></div>
+      <div id="districtImage" style="margin-top: 20px"></div>
+      <hr style="width: 100%; margin-top: 70px; margin-bottom: 20px" />
+
+
+      <div class="box-topic-news">
+        <section id="news" class="news-section">
+          <h2>ข่าวสารวันนี้</h2>
+          <a href="news1.html">
+            <img src="image\banner-khit.jpg" alt="ข่าวสารวันนี้" />
+          </a>
+
+          <article class="news-file">
+            <h3>การแบ่งเขตเลือกตั้ง!</h3>
+            <p>
+              การแบ่งเขตเลือกตั้งสมาชิกสภาองค์การบริหารส่วนจังหวัดนครราชสีมา...
+            </p>
+            <a href="\files/การแบ่งเขตเลือกตั้งสมาชิกสภา.pdf" download class="download">ดาวน์โหลดเอกสาร</a>
+          </article>
+          <article class="news-file">
+            <h3>ข้อมูลสำคัญในการลงทะเบียน</h3>
+            <p>
+              สำหรับผู้ที่ต้องการลงทะเบียนใหม่
+              โปรดตรวจสอบข้อมูลที่จำเป็นและเตรียมเอกสารให้ครบถ้วน...
+            </p>
+            <a href="\files/ข้อมูลสำคัญในการลงทะเบียน.pdf" download class="download">ดาวน์โหลดเอกสาร</a>
+          </article>
+        </section>
+      </div>
+      <div class="border-news">
+        <div class="announcement-section">
+          <h1>ข่าวประชาสัมพันธ์การเลือกตั้ง</h1>
+          <p>ติดตามข่าวสารต่าง ๆ พร้อมทั้งข้อมูลและลิ้งก์ที่น่าสนใจ ได้ที่นี่</p>
+          <div class="decoration"></div>
+        </div>
+        <div class="b-show">
+          <div class="news-grid">
+            <a href="news1.html">
+              <div class="news-item">
+                <img src="image/election.png" alt="Election News">
+                <h1>การเลือกตั้ง</h1>
+              </div>
+            </a>
+            <a href="news.html">
+              <div class="news-item">
+                <img src="image\gg.jpg" alt="News 2">
+                <h1>ฝ่ายจัดการคุณภาพน้ำ ปฏิบัติภารกิจ</h1>
+              </div>
+            </a>
+            <a href="https://www.koratpao.go.th/จิตอาสา-เราทำความดี-ด้ว-2/">
+              <div class="news-item">
+                <img src="image\hh.jpg" alt="News 3">
+                <h1>จิตอาสา “เราทำความดี ด้วยหัวใจ”</h1>
+              </div>
+            </a>
+            <a href="https://www.koratpao.go.th/จิตอาสา-เราทำความดี-ด้ว-2/">
+              <div class="news-item">
+                <img src="image\hh.jpg" alt="News 3">
+                <h1>จิตอาสา “เราทำความดี ด้วยหัวใจ”</h1>
+              </div>
+            </a>
+            <a href="https://www.koratpao.go.th/จิตอาสา-เราทำความดี-ด้ว-2/">
+              <div class="news-item">
+                <img src="image\hh.jpg" alt="News 3">
+                <h1>จิตอาสา “เราทำความดี ด้วยหัวใจ”</h1>
+              </div>
+            </a>
+          </div>
+          <div class="learn-button">
+            <button id="moreInfoBtn" onclick="toggleMoreInfo()">แสดงข้อมูลเพิ่มเติม</button>
+          </div>
+          <div id="more-info" class="more-info-content" style="display:none;">
+            <div class="news-grid">
+              <a href="news1.html">
+                <div class="news-item">
+                  <img src="image/election.png" alt="Election News">
+                  <h1>การเลือกตั้ง</h1>
+                </div>
+              </a>
+              <a href="https://www.koratpao.go.th/ฝ่ายจัดการคุณภาพน้ำ-ปฏิ/#">
+                <div class="news-item">
+                  <img src="image\gg.jpg" alt="News 2">
+                  <h1>ฝ่ายจัดการคุณภาพน้ำ ปฏิบัติภารกิจ</h1>
+                </div>
+              </a>
+              <a href="https://www.koratpao.go.th/จิตอาสา-เราทำความดี-ด้ว-2/">
+                <div class="news-item">
+                  <img src="image\hh.jpg" alt="News 3">
+                  <h1>จิตอาสา “เราทำความดี ด้วยหัวใจ”</h1>
+                </div>
+              </a>
+              <a href="https://www.koratpao.go.th/จิตอาสา-เราทำความดี-ด้ว-2/">
+                <div class="news-item">
+                  <img src="image\hh.jpg" alt="News 3">
+                  <h1>จิตอาสา “เราทำความดี ด้วยหัวใจ”</h1>
+                </div>
+              </a>
+              <a href="https://www.koratpao.go.th/จิตอาสา-เราทำความดี-ด้ว-2/">
+                <div class="news-item">
+                  <img src="image\hh.jpg" alt="News 3">
+                  <h1>จิตอาสา “เราทำความดี ด้วยหัวใจ”</h1>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-contact" id="contact">
+        <div class="all-contact">
+          <div class="contact">
+            <h3 style="margin-bottom: 10px">สามารถติดต่อเราได้ทาง</h3>
+            <p><i class="fa fa-phone"></i> 063-xxx-xxxx</p>
+            <p><i class="fa fa-phone"></i> 063-xxx-xxxx</p>
+            <p><i class="fa fa-envelope"></i> popman@gmail.com</p>
+            <h3 style="
+                margin-top: 35px;
+                font-size: 20px;
+                margin-left: 20px;
+                margin-bottom: 10px;
+              ">
+              ติดตามเพิ่มเติม
+            </h3>
+            <p>
+              <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+            </p>
+          </div>
+          <div class="agency">
+            <h3 style="margin-bottom: 10px">หน่วยงาน</h3>
+            <p>หน่วยงาน1......</p>
+            <p>หน่วยงาน2......</p>
+            <p>หน่วยงาน3......</p>
+            <p>หน่วยงาน4......</p>
+            <p>หน่วยงาน5......</p>
+            <p>หน่วยงาน6......</p>
+            <p>หน่วยงาน7......</p>
+            <p>หน่วยงาน8......</p>
+          </div>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3854.4033679104828!2d102.0963255751594!3d14.97029748556109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31194c943d98b3b9%3A0x6fa630d684faafe0!2z4Lit4LiH4LiE4LmM4LiB4Liy4Lij4Lia4Lij4Li04Lir4Liy4Lij4Liq4LmI4Lin4LiZ4LiI4Lix4LiH4Lir4Lin4Lix4LiU4LiZ4LiE4Lij4Lij4Liy4LiK4Liq4Li14Lih4Liy!5e0!3m2!1sth!2sth!4v1731382733158!5m2!1sth!2sth"
+              width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+              width="600" height="450" style="border:0;" allowfullscreen=""
+              loading="lazy" ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

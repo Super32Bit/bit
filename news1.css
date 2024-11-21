@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 3rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* สไตล์สำหรับเมนู dropdown */
+.nav-right {
+    margin-left: auto;
+}
+
+.dropdown ,.faq ,.home{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown a ,.faq a ,.home a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 5px;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2c3e50;
+    min-width: 190px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 1px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #2980b9;
+}
+
+/* เมื่อ hover เมนูหลัก จะทำให้เมนู dropdown แสดง */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.news-section {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.news-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.news-item .date {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.news-item .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.news-item .read-more:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

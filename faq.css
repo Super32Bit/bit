@@ -1,0 +1,96 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #4CAF50;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.faq-item {
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+    font-size: 1.2em;
+    color: #4CAF50;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.faq-item h3:hover {
+    color: #388E3C;
+}
+
+.faq-item p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .faq-item {
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 0.9em;
+    }
+}
