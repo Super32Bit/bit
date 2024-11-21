@@ -104,9 +104,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/image/eden.jpg", name: "Eden" },
-          { src: "/image/enzo.jpg", name: "Enzo" },
-          { src: "/image/palmer.jpg", name: "palmer" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/palmer.jpg", name: "palmer" },
         ],
       },
     ],
@@ -114,9 +114,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/image/eden.jpg", name: "Eden" },
-          { src: "/image/enzo.jpg", name: "Enzo" },
-          { src: "/image/palmer.jpg", name: "palmer" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/palmer.jpg", name: "palmer" },
         ],
       },
     ],
@@ -124,9 +124,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/image/eden.jpg", name: "Eden" },
-          { src: "/image/enzo.jpg", name: "Enzo" },
-          { src: "/image/palmer.jpg", name: "palmer" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/palmer.jpg", name: "palmer" },
         ],
       },
     ],
@@ -134,17 +134,17 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-           { src: "/image/eden.jpg", name: "Eden" },
-          { src: "/image/enzo.jpg", name: "Enzo" },
-          { src: "/image/palmer.jpg", name: "palmer" },
+           { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/palmer.jpg", name: "palmer" },
         ],
       },
       {
         zone: "เขต 2",
         images: [
-           { src: "/image/eden.jpg", name: "Eden" },
-          { src: "/image/enzo.jpg", name: "Enzo" },
-          { src: "/image/palmer.jpg", name: "palmer" },
+           { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/palmer.jpg", name: "palmer" },
         ],
       },
     ],
