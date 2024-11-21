@@ -539,8 +539,7 @@ function selectZone() {
       },
     ],
   };
-
-  imageContainer.innerHTML = ""; // ล้างภาพเดิม
+imageContainer.innerHTML = ""; // ล้างภาพเดิม
 
   // ตรวจสอบและแสดงภาพสำหรับอำเภอและเขตที่เลือก
   if (images[selectedDistrict]) {
@@ -563,20 +562,24 @@ function selectZone() {
         imgElement.style.width = "280px"; // ตัวอย่างการปรับขนาด
         imgElement.style.height = "350px";
         imgElement.style.margin = "10px";
-
+    
         // สร้างแท็ก <p> สำหรับชื่อภาพ
         const caption = document.createElement("p");
         caption.textContent = image.name; // ใส่ชื่อภาพ
-
+    
         // สร้าง wrapper div สำหรับทั้งภาพและชื่อ
         const imageWrapper = document.createElement("div");
-        imageWrapper.style.marginRight = "20px"; // ระยะห่างระหว่างภาพ
+        imageWrapper.style.display = "flex"; // ใช้ Flexbox
+        imageContainer.style.justifyContent = "center";
+        imageWrapper.style.flexDirection = "column"; // จัดแนว column
+        imageWrapper.style.alignItems = "center"; // จัดกึ่งกลางแนว horizontal
         imageWrapper.appendChild(imgElement);
         imageWrapper.appendChild(caption);
-
+    
         // เพิ่ม div ที่มีภาพและชื่อไปยัง container
         imageContainer.appendChild(imageWrapper);
-      });
+    });
+    
     } else {
       imageContainer.innerHTML = "<p>ไม่มีภาพสำหรับเขตที่เลือก</p>";
     }
