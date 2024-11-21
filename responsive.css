@@ -102,8 +102,6 @@
             height: 90%;
             justify-content: center;
             margin-left: 20px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.663);
-            background: rgb(255, 255, 255);
         }
 
         .agency h3,
@@ -229,6 +227,12 @@
 
     }
 
+    .card-container {
+        display: flex;
+        align-items: center;
+        background-color: rgb(255, 251, 246);
+    }
+
     .prev,
     .next {
         background-color: rgba(93, 93, 93, 0.5);
@@ -241,7 +245,32 @@
         cursor: pointer;
         border: none;
     }
-#districtImage {
-  margin-left: 40px;
-}
+
+    #districtImage {
+        display: flex;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+    .dropdown-border{
+        display: flex;
+        background-color: #ffffffb8;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        height: auto;
+      }
+      #zoneDropdownContainer {
+        position: relative;
+        display: none;
+        background-color: #ffffffb8;
+        border: 1px solid #ddd;
+        width: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
 }
