@@ -95,8 +95,8 @@ function selectZone() {
         zone: "เขต 1",
         images: [
           { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/palmer.jpg", name: "palmer" },
+          { src: "/assets/enzo.jpg", name: "Enzo" },
+          { src: "/assets/palmer.jpg", name: "palmer" },
         ],
       },
     ],
@@ -104,9 +104,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -114,9 +114,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -124,9 +124,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -134,17 +134,17 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+           { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 2",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+           { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -152,9 +152,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -162,9 +162,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+           { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -172,9 +172,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -182,9 +182,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+           { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -192,17 +192,17 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+           { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 2",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+           { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/img/enzo.jpg", name: "Enzo" },
+          { src: "image/img/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -210,9 +210,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -220,9 +220,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -230,17 +230,17 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+           { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 2",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -248,9 +248,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -258,9 +258,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -268,9 +268,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -278,17 +278,17 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 2",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -296,33 +296,33 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 2",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+         { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 3",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 4",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -330,17 +330,17 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 2",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -348,65 +348,65 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 2",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 3",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 4",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 5",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 6",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 7",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 8",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -414,9 +414,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -424,17 +424,17 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
       {
         zone: "เขต 2",
         images: [
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -442,9 +442,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -452,9 +452,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -462,9 +462,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -472,9 +472,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -482,9 +482,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -492,9 +492,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -502,9 +502,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -512,9 +512,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -522,9 +522,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
@@ -532,9 +532,9 @@ function selectZone() {
       {
         zone: "เขต 1",
         images: [
-          { src: "/assets/img/eden.jpg", name: "Eden" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
-          { src: "/assets/img/enzo.jpg", name: "Enzo" },
+          { src: "image/eden.jpg", name: "Eden" },
+          { src: "image/enzo.jpg", name: "Enzo" },
+          { src: "image/enzo.jpg", name: "Enzo" },
         ],
       },
     ],
