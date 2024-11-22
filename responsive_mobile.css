@@ -72,7 +72,7 @@
 
     .dropdown-border {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         width: auto;
         gap: 1px;
     }
@@ -84,17 +84,18 @@
         border: 1px solid #ddd;
         border-radius: 10px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      }
+    }
 
-      #zoneDropdownContainer {
+    #zoneDropdownContainer {
         position: relative;
         display: none;
         background-color: #ffffffb8;
         border: 1px solid #ddd;
         border-radius: 10px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      }
-      select {
+    }
+
+    select {
         width: 100%;
         height: 35px;
         padding-left: 10px;
@@ -103,9 +104,9 @@
         border: 1px solid #ddd;
         background-color: #ffffff;
         font-size: 12px;
-      }
+    }
 
-      button {
+    button {
         background-color: #007bff;
         color: white;
         border: none;
@@ -115,7 +116,7 @@
         cursor: pointer;
         transition: background-color 0.3s ease;
         margin-top: 10px;
-      }
+    }
 
     .box-topic-news {
         width: 95%;
@@ -292,93 +293,77 @@
         }
     }
 
-    
-.border-contact {
-    width: 100%;
-    height: auto;
-    margin: 30px auto;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .all-contact {
-    width: 95%;
-    height: auto;
-    background-color: #ffffffb8;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.77);
-    border-radius: 50px;
-    display: grid;
-    gap: 10px ;
-  }
-  
-  .contact,
-  .agency,
-  .map {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-    margin-left: 15px;
-  }
-  
-  .fa {
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-  
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    border-radius: 6px;
-    padding: 5px;
-    font-size: 30px;
-    width: 35px;
-    text-align: center;
-    background: #3b5998;
-    color: white;
-  }
-  
-  .fa-twitter {
-    border-radius: 6px;
-    padding: 5px;
-    font-size: 30px;
-    width: 35px;
-    text-align: center;
-    background: #55acee;
-    color: white;
-  }
-  
-  .fa-instagram {
-    padding: 5px;
-    font-size: 30px;
-    width: 35px;
-    border-radius: 6px;
-    text-align: center;
-    background-image: linear-gradient(155deg,
-        #4c57a2 8%,
-        #87439a 50%,
-        #e02870 85%);
-    position: relative;
-  }
-  
-  .fa-youtube {
-    border-radius: 6px;
-    padding: 5px;
-    font-size: 30px;
-    width: 35px;
-    text-align: center;
-    background: #bb0000;
-    color: white;
-  }
-  
-  .map iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.34);
-  }
+
+    .border-contact {
+        width: 100%;
+        height: auto;
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+
+    .fa {
+        font-size: 12px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        border-radius: 6px;
+        padding: 5px;
+        width: 35px;
+        text-align: center;
+        background: #3b5998;
+        color: white;
+    }
+
+    .fa-twitter {
+        border-radius: 6px;
+        padding: 5px;
+        width: 35px;
+        text-align: center;
+        background: #55acee;
+        color: white;
+    }
+
+    .fa-instagram {
+        padding: 5px;
+        width: 35px;
+        border-radius: 6px;
+        text-align: center;
+        background-image: linear-gradient(155deg,
+                #4c57a2 8%,
+                #87439a 50%,
+                #e02870 85%);
+        position: relative;
+    }
+
+    .fa-youtube {
+        border-radius: 6px;
+        padding: 5px;
+        width: 35px;
+        text-align: center;
+        background: #bb0000;
+        color: white;
+    }
+
+    .all-contact {
+        grid-template-areas:
+            "contact agency"
+            "map map";
+        /* Map ยังคงอยู่แถวล่างสุด */
+        grid-template-columns: 1fr 1fr;
+        /* คอลัมน์เท่ากัน */
+    }
+
+    .map {
+        margin-top: 10px;
+        /* เพิ่มระยะห่างระหว่าง Map และแถวบน */
+    }
 }
